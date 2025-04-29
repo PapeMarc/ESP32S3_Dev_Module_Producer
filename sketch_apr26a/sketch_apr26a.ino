@@ -34,8 +34,8 @@ String ssid;
 PubSubClient client(espClient);
 const char* mqtt_server = "YOUR_SERVER_ADDRESS";
 const int mqtt_port = 1883;
-const char* mqtt_user = "YOUR_MQTT_USERNAME";
-const char* mqtt_password = "YOUR_MQTT_PASSWORD";
+const char* mqtt_user = "MQTT_USERNAME";
+const char* mqtt_password = "MQTT_PASSWORD";
 
 float humidity, temperature;
 
@@ -46,7 +46,7 @@ void setup()
   //wm.resetSettings(); //Reset settings in setup if you wish to connect to another Network
   
   bool res;
-  res = wm.autoConnect("ESP32-Setup", "password");
+  res = wm.autoConnect("ESP32-Setup", "WEBSERVER_PASSWORD");
 
   if(!res){
     Serial.println("Failed to connect.");
