@@ -22,7 +22,7 @@ This repository contains an Arduino sketch that can be uploaded to a microcontro
 ## Setup & Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/USERNAME/REPOSITORY.git
+   git clone https://github.com/PapeMarc/ESP32S3_Dev_Module_Producer.git
    ```
 2. Open the file `sketch_apr26a.ino` in the **Arduino IDE**.
 3. Select your board and COM port under **Tools → Board / Port**.
